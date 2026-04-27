@@ -1,0 +1,33 @@
+{
+  "name": "blog-post",
+  "version": "1.0.0",
+  "description": "This project is implemented to meet the TalentLabs Blogging Platform rubric requirements (Auth, Blog Features, Code Quality).",
+  "homepage": "https://github.com/ahmadhafifihamdan/blog-post#readme",
+  "bugs": {
+    "url": "https://github.com/ahmadhafifihamdan/blog-post/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadhafifihamdan/blog-post.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "firebase": "^12.7.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
